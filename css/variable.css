@@ -1,0 +1,17 @@
+@import url(./font.css);
+:root{
+    --primaryColor-100:#d3ffff;
+    --primaryColor-200:#8AD0F2;
+    --primaryColor-300:#248db9;
+    --primarySecondary-100:#ffbfc2;
+    --primarySecondary-100:#ff4126;
+    --primarySecondary-100:#c10000;
+    --textColorDark:#1E1E1E;
+    --textColorMedium:#444444;
+    --textColorLight:#999999;
+    --colorDanger:#d00200;
+    --colorSuccess:#22c55e;
+    --colorWarning:#facc15;
+    --primaryFont:'Tanha';
+
+}
