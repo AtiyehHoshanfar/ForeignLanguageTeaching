@@ -1,17 +1,154 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./vendor/fontawesome/all.min.css">
-    <link rel="stylesheet" href="./css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
-</head>
-<body>
-    
-<h1>
-    ششبشبشبشبشبشببی
-</h1>
+  </head>
+  <body class="container">
+    <!-- ! Navbar Mobile-->
+    <nav class="navbar-mobile section">
+      <div class="navbar-mobile__logo">
+        <img src="./images/icon_prev_ui.png" alt="wise owl" />
+      </div>
+      <button class="navbar-mobile__hamburger-menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+    <!-- ! Navbar Desktop -->
+    <nav class="nav-desktop section">
+      <div class="nav-desktop__items">
+        <div class="navbar-desktop__logo">
+          <img src="./images/icon_prev_ui.png" alt="wise owl" />
+        </div>
+        <ul class="nav-desktop__menu-items">
+          <li class="nav-desktop__menu-item">خانه</li>
+          <li class="nav-desktop__menu-item">درباره ما</li>
+          <li class="nav-desktop__menu-item">دوره ها</li>
+          <li class="nav-desktop__menu-item">مقالات</li>
+          <span class="nav-desktop__menu-item__underline"></span>
+        </ul>
+      </div>
+      <div>
+        <button class="nav-desktop__cart">
+          <i class="fa-solid fa-basket-shopping"></i>
+        </button>
+        <button class="nav-desktop__register">
+          ثبت نام &nbsp; | &nbsp; ورود
+        </button>
+      </div>
+    </nav>
+
+    <!-- ! Hero section -->
+    <section class="hero section">
+      <!-- ? hero image  -->
+      <div class="hero__image-container">
+        <img class="hero__image" src="./images/Untitled.png" alt="a woman" />
+        <div class="hero__image-box box-one">
+          <div class="box-course box">
+            <i class="fa-solid fa-book"></i>
+          </div>
+          <span>تعداد دوره ها :23 </span>
+        </div>
+        <div class="hero__image-box box-two">
+          <div class="box-student box">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <span>تعداد کاربران : 232323</span>
+        </div>
+        <div class="hero__image-box box-three">
+          <div class="box-time box">
+            <i class="fa-regular fa-clock"></i>
+          </div>
+          <span>مجموع دقایق دوره ها : 3234 </span>
+        </div>
+      </div>
+      <!-- ? hero text -->
+      <div class="hero__title-container">
+        <h1 class="hero__title-heading">
+          دانستن یه <span class="circle-sketch-highlight">زبان دیگه</span> ،
+          داشتن <span class="realistic-marker-highlight">روح دومه</span>
+        </h1>
+        <svg
+          xmlns="//www.w3.org/2000/svg"
+          version="1.1"
+          class="svg-filters"
+          style="display: none"
+        >
+          <defs>
+            <filter id="marker-shape">
+              <feTurbulence
+                type="fractalNoise"
+                baseFrequency="0 0.15"
+                numOctaves="1"
+                result="warp"
+              />
+              <feDisplacementMap
+                xChannelSelector="R"
+                yChannelSelector="G"
+                scale="30"
+                in="SourceGraphic"
+                in2="warp"
+              />
+            </filter>
+          </defs>
+        </svg>
+        <h2 class="hero__title-description">
+          یادگیری یک زبان جدید 📚 <br />
+          این شانس را به شما میدهد تا فرد دیگری باشید
+          <br />
+          از این فرصت استفاده کنید !
+        </h2>
+        <button class="hero__button">شروع کنید</button>
+        <div class="hero__search-bar">
+          <div class="hero__search-input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="دنبال چی میگردی ؟؟" />
+          </div>
+          <div class="hero__search-bar__categories">دسته بندی ها</div>
+        </div>
+      </div>
+    </section>
+    <!-- ! flag container -->
+    <div class="marquee marquee--8">
+      <div class="marquee__item">
+        <img src="./images/flags/Flag-China.webp" alt="Flag-China">
+        <span>چین</span>
+      </div>
+      <div class="marquee__item">
+        <img src="./images/flags/Flag_of_Germany.svg.png" alt="Flag_of_Germany">
+        <span>آلمان</span>
+      </div>
+      <div class="marquee__item">
+        <img src="./images/flags/Flag_of_Russia.svg.png" alt="Flag_of_Russia">
+        <span>روسیه</span>
+      </div>
+      <div class="marquee__item">
+        <img src="./images/flags/عکس-پرچم-ژاپن-برای-تصویر-زمینه.jpg" alt="flag_of_gepan">
+        <span>ژاپن </span>
+      </div>
+      <div class="marquee__item">
+        <img src="./images/flags/Flag_of_the_United_Kingdom_(1-2).svg.png" alt="Flag_of_the_United_Kingdom">
+        <span>انگلیس</span>
+      </div>
+      <div class="marquee__item">
+        <img src="./images/flags/images.png" alt="flag-of-france">
+        <span>فرانسه</span>
+      </div>
+      <div class="marquee__item">
+        <img src="./images/flags/spain-flag.jpeg.jpg" alt="spain-flag">
+        <span>اسپانیا</span>
+      </div>
+      <div class="marquee__item">
+        <img src="./images/flags/Turkey-flag.webp" alt="Turkey-flag">
+        <span>ترکیه</span>
+      </div>
+
+    </div>
+
     <script src="./vendor/fontawesome/all.min.js"></script>
-</body>
+    <script src="./js/script.js"></script>
+  </body>
 </html>

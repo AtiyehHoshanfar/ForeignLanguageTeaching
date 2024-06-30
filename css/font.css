@@ -1,6 +1,70 @@
 @font-face {
-    font-family: 'Tanha';
-    src: url(../fonts/Tanha-FD.woff2);
+    font-family: 'Vazirmatn';
+    src: url(../fonts/Vazirmatn-ExtraBold.ttf);
     font-style: normal;
+    font-weight: 900;
     
 }
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url(../fonts/Vazirmatn-Bold.ttf);
+    font-style: normal;
+    font-weight: 800;
+    
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url(../fonts/Vazirmatn-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 700;
+    
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url(../fonts/Vazirmatn-Black.ttf);
+    font-style: normal;
+    font-weight: 600;
+    
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url(../fonts/Vazirmatn-Medium.ttf);
+    font-style: normal;
+    font-weight:500 ;
+    
+}
+
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url(../fonts/Vazirmatn-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url(../fonts/Vazirmatn-Thin.ttf);
+    font-style: normal;
+    font-weight: 300;
+    
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url(../fonts/Vazirmatn-Light.ttf);
+    font-style: normal;
+    font-weight: 200;
+    
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url(../fonts/Vazirmatn-ExtraLight.ttf);
+    font-style: normal;
+    font-weight: 100;
+    
+}
+
+
+
+
