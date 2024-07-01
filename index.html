@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./vendor/fontawesome/all.min.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
@@ -112,43 +118,821 @@
       </div>
     </section>
     <!-- ! flag container -->
-    <div class="marquee marquee--8">
+    <section class="marquee marquee--8">
       <div class="marquee__item">
-        <img src="./images/flags/Flag-China.webp" alt="Flag-China">
+        <img src="./images/flags/Flag-China.webp" alt="Flag-China" />
         <span>چین</span>
       </div>
       <div class="marquee__item">
-        <img src="./images/flags/Flag_of_Germany.svg.png" alt="Flag_of_Germany">
+        <img
+          src="./images/flags/Flag_of_Germany.svg.png"
+          alt="Flag_of_Germany"
+        />
         <span>آلمان</span>
       </div>
       <div class="marquee__item">
-        <img src="./images/flags/Flag_of_Russia.svg.png" alt="Flag_of_Russia">
+        <img src="./images/flags/Flag_of_Russia.svg.png" alt="Flag_of_Russia" />
         <span>روسیه</span>
       </div>
       <div class="marquee__item">
-        <img src="./images/flags/عکس-پرچم-ژاپن-برای-تصویر-زمینه.jpg" alt="flag_of_gepan">
+        <img
+          src="./images/flags/عکس-پرچم-ژاپن-برای-تصویر-زمینه.jpg"
+          alt="flag_of_gepan"
+        />
         <span>ژاپن </span>
       </div>
       <div class="marquee__item">
-        <img src="./images/flags/Flag_of_the_United_Kingdom_(1-2).svg.png" alt="Flag_of_the_United_Kingdom">
+        <img
+          src="./images/flags/Flag_of_the_United_Kingdom_(1-2).svg.png"
+          alt="Flag_of_the_United_Kingdom"
+        />
         <span>انگلیس</span>
       </div>
       <div class="marquee__item">
-        <img src="./images/flags/images.png" alt="flag-of-france">
+        <img src="./images/flags/images.png" alt="flag-of-france" />
         <span>فرانسه</span>
       </div>
       <div class="marquee__item">
-        <img src="./images/flags/spain-flag.jpeg.jpg" alt="spain-flag">
+        <img src="./images/flags/spain-flag.jpeg.jpg" alt="spain-flag" />
         <span>اسپانیا</span>
       </div>
       <div class="marquee__item">
-        <img src="./images/flags/Turkey-flag.webp" alt="Turkey-flag">
+        <img src="./images/flags/Turkey-flag.webp" alt="Turkey-flag" />
         <span>ترکیه</span>
       </div>
+    </section>
+    <!-- ! advantage -->
+    <section class="advantage section">
+      <h1 class="advantage__title">ما چه کمکی بهتون میکنیم؟</h1>
+      <ul class="advantage__items">
+        <li class="advantage__item">
+          <div class="box-course box"><i class="fa-regular fa-gem"></i></div>
+          <div class="advantage__item-text">
+            <strong>دوره های اختصاصی</strong>
+            <br />
+            با پشتیبانی و کیفیت بالا ارائه میده
+          </div>
+        </li>
+        <li class="advantage__item">
+          <div class="box-time box">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </div>
+          <div class="advantage__item-text">
+            <strong>دوره های پولی و رایگان</strong>
+            <br />
+            براش مهم نیست . به مدرسینش حقوق میده تا نهایت کیفیت رو در پشتیبانی و
+            آپدیت دوره ارائه بده
+          </div>
+        </li>
+        <li class="advantage__item">
+          <div class="box-student box">
+            <i class="fa-solid fa-chalkboard-user"></i>
+          </div>
+          <div class="advantage__item-text">
+            <strong>اجازه تدریس</strong>
+            <br />
+            به هر مدرسی نمیده ، چون کیفیت براش مهمه !
+          </div>
+        </li>
+        <li class="advantage__item">
+          <div class="box-crown box">
+            <i class="fa-solid fa-crown"></i>
+          </div>
+          <div class="advantage__item-text">
+            <strong>اهمیت به کاربر</strong>
+            <br />
+            الویت اول و آخر آکادمی آموزش زبان ما اهمیت به کاربرها و رفع نیازهای
+            آموزشی هست
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- ! popular course -->
+    <section class="popular-course section">
+      <div class="popular-course-section">
+        <ul class="course__items swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- ! course item -->
+          
+              <li class="card swiper-slide">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
 
-    </div>
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>1295000تومان</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+           
+            <!-- ! course item -->
+           
+              <li class="card swiper-slide">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
+
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>1295000تومان</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+          
+            <!-- ! course item -->
+              <li class="card swiper-slide">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
+
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>1295000تومان</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+           
+            <!-- ! course item -->
+              <li class="card swiper-slide">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
+
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>1295000تومان</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            
+            <!-- ! course item -->
+              <li class="card swiper-slide">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
+
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>1295000تومان</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            <!-- ! course item -->
+              <li class="card swiper-slide">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
+
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>1295000تومان</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            <!-- ! course item -->
+              <li class="card swiper-slide">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
+
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>1295000تومان</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            <!-- ! course item -->
+              <li class="card swiper-slide">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
+
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>1295000تومان</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            <!-- ! course item -->
+              <li class="card swiper-slide">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
+
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>1295000تومان</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            <!-- ! course item -->
+              <li class="card swiper-slide ">
+                <div class="course__item">
+                  <div class="course-card">
+                    <!-- ! image container course -->
+                    <div class="course-card__image-container">
+                      <div class="content">
+                        <img
+                          src="./images/course cover/cover-asli-german.webp"
+                          alt="germany cover course"
+                        />
+
+                        <div>
+                          <!-- ! num of students -->
+                          <div class="course-card__num-of-students">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>1294</span>
+                          </div>
+                          <!-- ! add to favaorite -->
+                          <div class="course-card__add-to-favorite-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>234</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ! description container course -->
+                    <div class="course-card__description-container">
+                      <a href="#" class="course-card__name"
+                        >دوره تخصصی آموزش زبان آلمانی</a
+                      >
+                      <!-- ? course information -->
+                      <div class="course-card__options">
+                        <!-- ! course time  -->
+                        <div class="course-card__time">
+                          <i class="fa-regular fa-clock"></i>
+                          <div>24:23:00</div>
+                        </div>
+                        <!-- ! course status -->
+                        <div class="course-card__status">
+                          <i class="fa-solid fa-microphone"></i>
+                          <div>تکمیل ضبط</div>
+                        </div>
+                      </div>
+                      <a href="#" class="course-card__show-details">
+                        <div>مشاهده اطلاعات دوره</div>
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                      </a>
+                      <hr />
+                      <!-- ? description footer -->
+                      <div class="course-card__description-footer">
+                        <button class="course-card__register-btn">
+                          ثبت نام دوره
+                        </button>
+                        <!-- ?  description price -->
+                        <div class="course-card__price">
+                          <!-- ?discount -->
+                          <div class="course-card__discount">
+                            <div>2589000</div>
+                            <div class="badge">50%</div>
+                          </div>
+                          <!-- ? main price -->
+                          <div>تومان1295000</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+          </div>
+        </ul>
+      </div>
+      <!-- ! title popular -->
+      <div class="popular__title">محبوب ترین دوره ها 📖</div>
+    </section>
 
     <script src="./vendor/fontawesome/all.min.js"></script>
+    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
