@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./vendor/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="signin-signup-container">
+      <div class="signin-signup__form">
+        <div class="signin-signup__content">
+          <!-- ! switch button -->
+          <div class="switch-button">
+            <div class="switch-button__selected">
+              <span data-form="signin" class="signin">ورود</span>
+              <span data-form="signup" class="signup"> ثبت نام</span>
+            </div>
+            <div class="breadcrumbs"></div>
+          </div>
+
+          <!-- ! login -->
+          <div id="login-form">
+            <h1 class="login-form__title">خوش آمدید</h1>
+            <h2 class="login-form__sub-title">
+              لطفا اطلاعات حساب خود را وارد کنید
+            </h2>
+
+            <form>
+              <ul>
+                <!-- ! email -->
+                <li class="email-form">
+                  <label for="email" class="email-form__label">ایمیل</label>
+                  <div class="login-form__content">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input
+                      type="email"
+                      class="email-form__input"
+                      placeholder="ایمیل...."
+                    />
+                  </div>
+                </li>
+                <!-- ! password -->
+                <li class="password-form">
+                  <label class="password-form__label" for="password"
+                    >رمز عبور</label
+                  >
+                  <div class="login-form__content">
+                    <i class="fa-solid fa-key"></i>
+                    <input
+                    id="password"
+                      type="password"
+                      class="password-form__input"
+                      placeholder="رمز عبور...."
+                    />
+                    <button class="show-hide-btn-login btn password-form__hide-show">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+              <button class="btn login-form__button">ورود</button>
+            </form>
+          </div>
+          <!-- ! signup -->
+          <div id="signup-form">
+            <h1 class="login-form__title">خوش آمدید</h1>
+            <h2 class="login-form__sub-title">
+              لطفا اطلاعات حساب خود را وارد کنید
+            </h2>
+
+            <form>
+              <ul>
+                <!-- ! email -->
+                <li class="email-form">
+                  <label for="email" class="email-form__label">ایمیل</label>
+                  <div class="login-form__content">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input
+                      type="email"
+                      class="email-form__input"
+                      placeholder="ایمیل...."
+                    />
+                  </div>
+                </li>
+                <!-- ! password -->
+                <li class="password-form">
+                  <label class="password-form__label" for="password"
+                    >رمز عبور</label
+                  >
+                  <div class="login-form__content">
+                    <i class="fa-solid fa-key"></i>
+                    <input
+                    id="signup-password"
+                      type="password"
+                      class="password-form__input"
+                      placeholder="رمز عبور...."
+                    />
+                    <button class="signup-password-btn btn password-form__hide-show">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                  </div>
+                </li>
+                <!-- ! confirm password -->
+                <li class="password-form">
+                  <label class="password-form__label" for="password"
+                    > تکرار رمز عبور</label
+                  >
+                  <div class="login-form__content">
+                    <i class="fa-solid fa-key"></i>
+                    <input
+                    id="signup-confirm-password"
+                      type="password"
+                      class="password-form__input"
+                      placeholder=" تکرار رمز عبور...."
+                    />
+                    <button class="signup-confirm-password-btn btn password-form__hide-show">
+                      <i class="fa-solid fa-eye"></i>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+              <button class="btn login-form__button">ثبت نام</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- ! Animation in Desktop -->
+      <div class="div signin-signup-animation"></div>
+    </div>
+    <script src="./vendor/fontawesome/all.min.js"></script>
+    <script src="./js/signin-singup.js"></script>
+  </body>
+</html>

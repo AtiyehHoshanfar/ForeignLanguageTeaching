@@ -1,0 +1,136 @@
+@import url(./reset.css);
+@import url(./variable.css);
+.signin-signup-container {
+  display: flex;
+}
+.signin-signup-animation {
+  display: none;
+}
+#signup-form{
+  display: none;
+}
+.switch-button {
+  margin-bottom: 4.8rem;
+  border-radius: 1000px;
+  padding: 1.6rem;
+  background-color: #ffff;
+  position: relative;
+}
+.switch-button__selected {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.signin,
+.signup {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--primaryColor-400);
+}
+.signin-signup__form {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+.signin-signup__content {
+  margin: 1.6rem;
+  margin-top: 9.6rem;
+  width: 100%;
+}
+
+.breadcrumbs {
+  transition: all 0.5s ease;
+  width: 50%;
+  position: absolute;
+  border-radius: 1000px;
+  z-index: 20;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background: rgba(138, 208, 242, 0.5);
+}
+
+.login-form__title {
+  font-weight: bold;
+  font-size: 3.6rem;
+  margin-bottom: 1.2rem;
+  color: var(--primaryColor-300);
+  text-align: right;
+}
+.login-form__sub-title {
+  font-size: 1.8rem;
+  color: var(--primaryColor-200);
+  margin-bottom: 5.6rem;
+  text-align: right;
+}
+
+.login-form__content {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 120px;
+  padding: 1rem 2rem;
+}
+.password-form,
+.email-form {
+  margin-bottom: 2.4rem;
+}
+.password-form__label,
+.email-form__label {
+  margin-bottom: 0.8rem;
+  display: block;
+  margin-right: 1.6rem;
+  font-size: 1.6rem;
+  color: var(--primaryColor-300);
+  font-weight: bold;
+}
+.password-form__input,
+.email-form__input {
+  flex: 1 0 0;
+}
+.password-form__hide-show {
+  color: var(--primaryColor-300);
+  background-color: transparent;
+}
+.password-form__input::placeholder,
+.email-form__input::placeholder {
+  color: gray;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.login-form__content .fa-key,
+.login-form__content .fa-envelope {
+  color: var(--primaryColor-300);
+}
+.login-form__button {
+  color: #fff;
+  background-color: var(--primaryColor-300);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 120px;
+}
+@media screen and (min-width: 674px) {
+  .signin-signup-animation {
+    display: block;
+  }
+  .signin-signup__content {
+    width: 60%;
+  }
+  .email-form__content {
+    padding: 1.6rem 2.4rem;
+  }
+  .password-form__label,
+  .email-form__label {
+    margin-bottom: 0.8rem;
+    display: block;
+    margin-right: 1.6rem;
+    font-size: 2rem;
+  }
+  .login-form__button {
+    padding: 1.4rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+}
